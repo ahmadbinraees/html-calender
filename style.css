@@ -1,0 +1,19 @@
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 95px);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.date{
+    background-color: lightslategrey;
+    color: whitesmoke;
+    font-size: 2em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.other-months{
+    background-color: grey;
+}
