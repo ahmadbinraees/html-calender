@@ -1,11 +1,11 @@
 .calendar{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(5, 95px);
+    grid-template-rows: 40px repeat(5, 100px);
     column-gap: 10px;
     row-gap: 10px;
 }
-.date{
+.date, .day{
     background-color: lightslategrey;
     color: whitesmoke;
     font-size: 2em;
@@ -14,6 +14,9 @@
     justify-content: center;
     align-items: center;
 }
-.other-months{
+.other-months , .day{
     background-color: grey;
+}
+.day{
+    font-size: 1.5em;
 }
